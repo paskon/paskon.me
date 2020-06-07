@@ -126,7 +126,7 @@
 .navigation {
   display: block;
   padding-top: 40px;
-  padding-bottom: 24px;
+  padding-bottom: 0px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -230,8 +230,8 @@
 
 .contact {
   margin-top: 0px;
-  padding-top: 24px;
-  padding-bottom: 40px;
+  padding-top: 0px;
+  padding-bottom: 24px;
 }
 
 .image-profile {
@@ -300,7 +300,6 @@
   display: flex;
   width: auto;
   margin-top: 24px;
-  margin-bottom: 24px;
   padding: 16px;
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -324,14 +323,6 @@
 }
 
 .icon-color {
-  width: 56px;
-  height: 56px;
-  margin-right: 16px;
-  border-radius: 100px;
-  background-color: #0c29d0;
-}
-
-.icon-color.work {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -344,6 +335,14 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  width: 56px;
+  height: 56px;
+  margin-right: 16px;
+  border-radius: 100px;
+  background-color: #0c29d0;
+}
+
+.icon-color.work {
   background-color: #212429;
 }
 
@@ -361,7 +360,8 @@
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 0px;
-  padding: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -377,7 +377,7 @@
   flex: 1;
   border-radius: 20px;
   background-color: #1334f6;
-  background-image: url('../images/background.png');
+  background-image: url('../images/ui/background.png');
   background-position: 100% 99%;
   background-size: 464px;
   background-repeat: no-repeat;
@@ -407,7 +407,6 @@
   display: -ms-flexbox;
   display: flex;
   width: auto;
-  margin-bottom: 24px;
   padding-top: 0px;
   padding-left: 0px;
   -webkit-box-align: center;
@@ -506,11 +505,11 @@
 }
 
 .photo.about {
-  background-image: url('../images/profile-photo-p-1080.png');
+  background-image: url('../images/photos/profile-photo.png');
 }
 
 .photo.work {
-  background-image: url('../images/work-photo-p-1080.png');
+  background-image: url('../images/photos/work-photo.png');
 }
 
 .text-column {
