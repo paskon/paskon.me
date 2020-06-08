@@ -282,7 +282,8 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border: 2px solid #fff;
+  border: 2px solid #212429;
+  background-color: #15181d;
   border-radius: 50px;
   text-align: center;
   text-decoration: none;
