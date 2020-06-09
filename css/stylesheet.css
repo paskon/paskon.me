@@ -881,6 +881,7 @@
     flex-direction: column;
     background-size: 360px;
     text-align: center;
+    padding: 16px;
   }
   .profile-card-text {
     margin-left: 0px;
@@ -1065,7 +1066,8 @@
   }
   .content-content {
     width: auto;
-    padding: 0px;
+    margin-top: -16px;
+    margin-bottom: -32px;
   }
   .icon-color.work {
     margin-right: 16px;
@@ -1085,7 +1087,7 @@
     text-align: left;
   }
   .contact-header {
-    margin-top: -16px;
+    margin-top: 0px;
     padding-bottom: 0px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
