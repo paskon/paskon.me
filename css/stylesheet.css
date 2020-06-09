@@ -386,6 +386,7 @@
 
 .profile-card-text {
   margin-left: 24px;
+  margin-top: -16px;
   padding-left: 0px;
 }
 
@@ -850,6 +851,7 @@
   .description {
     font-size: 18px;
     line-height: 27px;
+    text-align: left;
   }
   .image-profile {
     width: 80px;
@@ -869,6 +871,7 @@
     -ms-flex-pack: start;
     justify-content: flex-start;
     text-align: center;
+    padding-bottom: 0px;
   }
   .contact-card {
     -webkit-box-orient: vertical;
@@ -880,7 +883,6 @@
     text-align: center;
   }
   .profile-card-text {
-    margin-top: 24px;
     margin-left: 0px;
   }
   .paragraph {
@@ -999,7 +1001,7 @@
     align-items: flex-end;
   }
   .card {
-    padding: 16px 24px;
+    padding: 16px 16px;
   }
   .card.alone {
     padding-top: 16px;
@@ -1037,12 +1039,20 @@
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
   }
+
   .description {
-    font-size: 21px;
-    line-height: 32px;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: left;
   }
+
+  .paragraph {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
   .link-right {
-    margin-top: 24px;
+    margin-top: 16px;
     margin-left: 0px;
   }
   .link-left {
@@ -1055,6 +1065,7 @@
   }
   .content-content {
     width: auto;
+    padding: 0px;
   }
   .icon-color.work {
     margin-right: 16px;
@@ -1064,6 +1075,8 @@
     -webkit-flex: 0 auto;
     -ms-flex: 0 auto;
     flex: 0 auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
     background-image: none;
     background-size: auto;
     background-repeat: repeat;
@@ -1072,7 +1085,8 @@
     text-align: left;
   }
   .contact-header {
-    margin-bottom: 24px;
+    margin-top: -16px;
+    padding-bottom: 0px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
@@ -1192,18 +1206,22 @@
     padding-top: 40px;
   }
   .h1 {
-    font-size: 62px;
-    line-height: 62px;
+    font-size: 48px;
+    line-height: 48px;
   }
+
+  .h2{
+    font-size: 20px;
+    line-height: 30px;
+  }
+
   .h2.bold {
     font-size: 24px;
   }
   .navigation {
-    padding-top: 24px;
+    padding-top: 0px;
   }
-  .card {
-    padding: 16px 24px;
-  }
+
   .card.alone {
     margin-right: -16px;
     margin-left: -16px;
@@ -1214,14 +1232,19 @@
   .icon-color.work {
     margin-right: 8px;
   }
+
+  .contact-header {
+    margin-bottom: 0px;
+  }
+
   .photo {
     min-height: 390px;
     background-position: 52% 50%;
     background-size: cover;
   }
   .text-column {
-    padding-right: 16px;
-    padding-left: 16px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
   .column-right {
     padding-left: 0px;
@@ -1266,10 +1289,10 @@
     -ms-grid-rows: auto auto auto;
     grid-template-rows: auto auto auto;
   }
-  .text-column-copy {
+  /* .text-column-copy {
     padding-right: 16px;
     padding-left: 16px;
-  }
+  } */
   .content {
     padding-top: 0px;
     padding-bottom: 0px;
