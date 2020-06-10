@@ -258,7 +258,7 @@
 
 .label-button {
   margin-bottom: -4px;
-  color: #fff;
+  color: #15181d;
   font-size: 24px;
   line-height: 36px;
   text-decoration: none;
@@ -282,8 +282,8 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border: 2px solid #212429;
-  background-color: #15181d;
+  border: 2px solid #fff;
+  background-color: #fff;
   border-radius: 50px;
   text-align: center;
   text-decoration: none;
