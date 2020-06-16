@@ -533,10 +533,14 @@
 
 .photo.bike {
   background-image: url('../images/photos/paskon-with-bike.jpg');
+  background-repeat: no-repeat;
+  background-position: right top;
 }
 
 .photo.work {
   background-image: url('../images/photos/work-photo.png');
+  background-repeat: no-repeat;
+  background-position: left top;
 }
 
 .text-column {
