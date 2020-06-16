@@ -1,3 +1,3 @@
-# paskon.me ehome
+# paskon.me
 
 The code that powers paskon.me.
