@@ -1,7 +1,3 @@
-# paskon.me - personal website
+# paskon.me
 
-Dear visitor,
-
-Welcome to my personal website.
-
-paskon
+The code that powers paskon.me.
