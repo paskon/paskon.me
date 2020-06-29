@@ -543,6 +543,13 @@
   background-position: left top;
 }
 
+.photo.breathe {
+  background-image: url('../images/photos/breathe-app.png');
+  min-height: 400px;
+  margin-bottom: -88px;
+  margin-top: -88px;
+}
+
 .text-column {
   display: -webkit-box;
   display: -webkit-flex;
