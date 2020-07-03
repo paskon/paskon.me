@@ -545,8 +545,8 @@
 
 .photo.breathe {
   background-image: url('../images/photos/breathe-app.png');
-  min-height: 400px;
-  margin-bottom: -88px;
+  min-height: 350px;
+  margin-bottom: -40px;
   margin-top: -88px;
 }
 
