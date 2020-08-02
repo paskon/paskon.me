@@ -697,6 +697,7 @@
 
 .grid-2._2-columns {
   margin-top: 40px;
+  margin-bottom: -80px;
   -webkit-box-pack: stretch;
   -webkit-justify-content: stretch;
   -ms-flex-pack: stretch;
