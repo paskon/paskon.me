@@ -906,6 +906,8 @@
     -ms-flex-align: center;
     align-items: center;
   }
+
+
   .card {
     padding: 16px 24px;
   }
@@ -921,7 +923,6 @@
     margin-bottom: 0px;
     margin-left: 0px;
   }
-
 
   /*
   .profile-card {
@@ -1060,6 +1061,11 @@
     -ms-flex-direction: row;
     flex-direction: row;
   }
+
+  .footer-content {
+      display: inline;
+  }
+
   .card-header {
     -webkit-box-align: end;
     -webkit-align-items: flex-end;
