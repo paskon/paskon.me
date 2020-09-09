@@ -529,13 +529,14 @@
 
 .photo.about {
   background-image: url('../images/photos/profile-photo.png');
-  margin-bottom: -32px;
+  /* margin-bottom: -32px; */
 }
 
 .photo.bike {
   background-image: url('../images/photos/paskon-with-bike.jpg');
   background-repeat: no-repeat;
   background-position: right top;
+  margin-bottom: 80px;
 }
 
 .photo.work {
@@ -598,12 +599,12 @@
 .tag {
   margin-bottom: 0px;
   margin-top: 8px;
-  color: #ffffff;
-  opacity: 50%;
+  color: #ccc;
   font-size: 16px;
   line-height: 28px;
   text-transform: none;
 }
+
 
 .card-2-columns {
   display: -webkit-box;
@@ -970,10 +971,6 @@
   .column-right {
     padding-right: 0px;
   }
-  .divider {
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
   .grid {
     grid-row-gap: 16px;
   }
@@ -1187,10 +1184,6 @@
   }
   .column-right {
     padding-right: 0px;
-  }
-  .divider {
-    margin-top: 40px;
-    margin-bottom: 40px;
   }
   .column-12 {
     margin-bottom: 24px;
