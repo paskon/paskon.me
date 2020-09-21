@@ -174,10 +174,6 @@
   cursor: pointer;
 }
 
-.green{
-  color: #317C25;
-}
-
 .green-card {
   display: block;
   width: auto;
@@ -227,10 +223,14 @@
   display: none;
 }
 
+.green{
+  color: #57BD39;
+}
+
 .description {
   margin: 0px;
   padding-right: 0px;
-  color: #fff;
+  color: #ccc;
   font-size: 21px;
   line-height: 32px;
   letter-spacing: normal;
@@ -271,6 +271,16 @@
   font-size: 18px;
   line-height: 27px;
   text-align: left;
+  text-decoration: none;
+}
+
+.link-3 {
+  margin-right: 0px;
+  color: #ccc;
+  font-size: 21px;
+  line-height: 32px;
+  letter-spacing: normal;
+  text-indent: 0px;
   text-decoration: none;
 }
 
