@@ -569,9 +569,13 @@
 
 .photo.workspace {
   background-image: url('../images/photos/workspace-photo.png');
-  background-repeat: no-repeat;
-  background-position: right top;
+  min-height: 530px;
   margin-bottom: 80px;
+  padding-left: 0px;
+  border-radius: 20px;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .photo.work {
