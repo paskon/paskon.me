@@ -567,6 +567,13 @@
   margin-bottom: 80px;
 }
 
+.photo.workspace {
+  background-image: url('../images/photos/workspace-photo.png');
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-bottom: 80px;
+}
+
 .photo.work {
   background-image: url('../images/photos/work-photo.png');
   background-repeat: no-repeat;
