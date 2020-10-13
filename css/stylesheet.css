@@ -548,7 +548,7 @@
 .photo {
   min-height: 530px;
   padding-left: 24px;
-  padding-top: 24px;
+  padding-bottom: 8px;
   display: flex;
   align-items: flex-end
   border-radius: 20px;
@@ -560,7 +560,7 @@
 .photo.about {
   background-image: url('../images/photos/profile-photo.png');
   padding-left: 24px;
-  padding-top: 24px;
+  padding-bottom: 8px;
   display: flex;
   align-items: flex-end
 }
@@ -571,7 +571,7 @@
   background-position: right top;
   margin-bottom: 80px;
   padding-left: 24px;
-  padding-top: 24px;
+  padding-bottom: 8px;
   display: flex;
   align-items: flex-end;
 }
@@ -594,6 +594,10 @@
   background-image: url('../images/photos/work-photo.png');
   background-repeat: no-repeat;
   background-position: left top;
+  padding-left: 24px;
+  padding-bottom: 8px;
+  display: flex;
+  align-items: flex-end
 }
 
 .photo.breathe {
