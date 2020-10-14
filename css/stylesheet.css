@@ -936,6 +936,15 @@
   white-space: normal;
 }
 
+.green-border{
+  border: 2px solid #374946;
+  background-color: #263130;
+}
+
+.green{
+  background-color: #374946;
+}
+
 @media screen and (max-width: 991px) {
   .body {
     margin-right: 0px;
