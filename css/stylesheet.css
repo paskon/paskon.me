@@ -735,6 +735,7 @@
 	webkit-box-pack: stretch;
 	webkit-justify-content: stretch;
 }
+
 .grid-2._2-columns
 {
 	align-content: stretch;
@@ -1441,12 +1442,29 @@
 		ms-grid-columns: 1fr 1fr;
 		ms-grid-rows: auto auto auto;
 	}
+
 	.grid-2._2-columns
 	{
+		align-content: stretch;
+		align-items: center;
 		grid-template-columns: 1fr;
-		margin-bottom: 0px;
+		grid-template-rows: auto;
+		justify-content: stretch;
+		justify-items: center;
+		margin-bottom: -80px;
+		margin-top: 40px;
+		ms-flex-align: center;
+		ms-flex-line-pack: stretch;
+		ms-flex-pack: stretch;
 		ms-grid-columns: 1fr;
+		ms-grid-rows: auto;
+		webkit-align-content: stretch;
+		webkit-align-items: center;
+		webkit-box-align: center;
+		webkit-box-pack: stretch;
+		webkit-justify-content: stretch;
 	}
+
 	.photo-2
 	{
 		background-position: 10% 100%;
