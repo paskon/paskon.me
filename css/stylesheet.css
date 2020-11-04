@@ -736,20 +736,20 @@
 	webkit-justify-content: stretch;
 }
 
-.grid-2._5-columns
+.grid-2._4-columns
 {
 	align-content: stretch;
 	align-items: center;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	grid-template-rows: auto auto auto auto auto;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: auto auto auto auto;
 	justify-content: stretch;
 	justify-items: center;
 	margin-top: 40px;
 	ms-flex-align: center;
 	ms-flex-line-pack: stretch;
 	ms-flex-pack: stretch;
-	ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
-	ms-grid-rows: auto auto auto auto auto;
+	ms-grid-columns: 1fr 1fr 1fr 1fr;
+	ms-grid-rows: auto auto auto auto;
 	webkit-align-content: stretch;
 	webkit-align-items: center;
 	webkit-box-align: center;
