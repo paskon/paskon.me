@@ -26,6 +26,7 @@
   height: 100%;
   margin-top: 8px;
   margin-bottom: -32px;
+  margin-right: 16px;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
